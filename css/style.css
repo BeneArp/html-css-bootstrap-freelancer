@@ -1,14 +1,19 @@
 header{
     background-color: rgb(44 62 80);
-    height: 90px;
     color: white;
 }
+
+header nav{
+    height: 80px;
+}
+
 
 /* debug */
 .container{
     border: 2px solid red;
 }
 
+/* debug */
 [class*="col-"]{
     border: 2px solid yellow;
 }
@@ -16,5 +21,14 @@ header{
 .ms-box{
     /* debug */
     background-color: orange;
-    height: 70px;
+    
+}
+
+.jumbo{
+    background-color: rgb(26 188 156);
+}
+
+.jumbo .ms-box{
+    height: 250px;
+    text-align: center;
 }
