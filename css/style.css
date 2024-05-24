@@ -32,10 +32,17 @@ section{
     
 }
 
-.jumbo{
+.bg-green{
     background-color: rgb(26 188 156);
 }
 
 .jumbo .ms-box{
     text-align: center;
+}
+
+.button{
+    background-color: red;
+    margin: 2em auto;
+    width: 100px;
+    height: 30px;
 }
