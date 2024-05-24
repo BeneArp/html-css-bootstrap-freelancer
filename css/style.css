@@ -41,8 +41,9 @@ section{
 }
 
 .button{
-    background-color: red;
     margin: 2em auto;
+    /* debug */
+    background-color: red;
     width: 100px;
     height: 30px;
 }
