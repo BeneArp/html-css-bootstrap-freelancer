@@ -3,11 +3,6 @@ body{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-header{
-    background-color: rgb(44 62 80);
-    color: white;
-}
-
 header nav .ms-box{
     height: 60px;
 }
@@ -36,17 +31,25 @@ section{
 
 
 /* HEADER */
-.bg-green{
-    background-color: rgb(26 188 156);
+.navbar.navbar-expand-md{
+    background-color: rgb(44 62 80);
 }
 
-#jumbo .ms-box{
-    text-align: center;
+.bg-green{
+    background-color: rgb(26 188 156);
 }
 
 .fa-bars{
     padding: 0.3em 0.7em;
 }
+
+
+#jumbo img{
+    padding-top: 80px;
+    width: 250px;
+    max-width: 100%;
+}
+
 
 
 
