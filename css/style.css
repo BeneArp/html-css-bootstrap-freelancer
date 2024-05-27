@@ -1,10 +1,11 @@
+/* generali */
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 header{
     background-color: rgb(44 62 80);
     color: white;
-}
-
-header nav{
-    height: 80px;
 }
 
 header nav .ms-box{
@@ -32,6 +33,9 @@ section{
     
 }
 
+
+
+/* HEADER */
 .bg-green{
     background-color: rgb(26 188 156);
 }
@@ -40,6 +44,15 @@ section{
     text-align: center;
 }
 
+.fa-bars{
+    padding: 0.3em 0.7em;
+}
+
+
+
+
+
+/* MAIN */
 .button{
     margin: 2em auto;
     /* debug */
@@ -52,6 +65,12 @@ section{
     margin: 2em 0;
 }
 
+
+
+
+
+
+/* FOOTER */
 footer{
     background-color: rgb(58 84 109);
     color: white;
