@@ -21,15 +21,8 @@ a{
     text-decoration: none;
 }
 
-/* debug */
-.container{
-    border: 2px solid red;
-}
-
 .ms-box{
     margin: 0.8em 0;
-    /* debug */
-    background-color: orange;
 }
 
 
