@@ -1,10 +1,7 @@
 /* generali */
 body{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-header{
-    color: white;
+    font-size: 18px;
 }
 
 h1{
@@ -20,16 +17,19 @@ section{
     padding: 2em 0;
 }
 
+a{
+    text-decoration: none;
+}
+
 /* debug */
 .container{
     border: 2px solid red;
 }
 
 .ms-box{
-    
+    margin: 0.8em 0;
     /* debug */
     background-color: orange;
-    
 }
 
 
@@ -48,6 +48,7 @@ section{
 /* jumbo */
 .bg-green{
     background-color: rgb(26 188 156);
+    color: white;
 }
 
 #jumbo{
@@ -125,12 +126,23 @@ section{
 }
 
 
+/* sezione about */
+
+/* formattazione generale bottoni */
 .button{
-    margin: 2em auto;
-    /* debug */
-    background-color: red;
-    width: 100px;
-    height: 30px;
+    display: inline-block;
+    margin: 0.5em auto;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 0.5em 1em;
+}
+
+a.button{
+    color: white;
+}
+
+.fa-download{
+    margin-right: 0.5em;
 }
 
 .button-left{
