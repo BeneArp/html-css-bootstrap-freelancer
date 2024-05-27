@@ -3,8 +3,13 @@ body{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-header nav .ms-box{
-    height: 60px;
+header{
+    color: white;
+}
+
+h1{
+    font-weight: bold;
+    margin: 0.4em 0 0;
 }
 
 section{
@@ -31,26 +36,43 @@ section{
 
 
 /* HEADER */
+
+/* nav */
 .navbar.navbar-expand-md{
     background-color: rgb(44 62 80);
-}
-
-.bg-green{
-    background-color: rgb(26 188 156);
 }
 
 .fa-bars{
     padding: 0.3em 0.7em;
 }
 
+/* jumbo */
+.bg-green{
+    background-color: rgb(26 188 156);
+}
+
+#jumbo{
+    padding: 80px 0 20px;
+    font-size: 20px;
+}
 
 #jumbo img{
-    padding-top: 80px;
     width: 250px;
     max-width: 100%;
 }
 
+.star{
+    font-size: 40px;
+}
 
+.star span{
+    display: inline-block;
+    background-color: white;
+    width: 100px;
+    height: 5px;
+    border-radius: 20px;
+    margin-bottom: 12px;
+}
 
 
 
