@@ -145,8 +145,12 @@ a.button{
     margin-right: 0.5em;
 }
 
-.button-left{
-    margin: 2em 0;
+
+
+/* sezione contact */
+.sub{
+    background-color: rgb(26 188 156);
+    color: white;
 }
 
 
