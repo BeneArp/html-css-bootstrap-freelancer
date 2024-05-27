@@ -72,11 +72,6 @@ a.nav-link{
 }
 
 
-/* hover header */
-.nav-item:hover a.nav-link{
-    color: rgb(26 188 156);
-}
-
 
 
 /* MAIN */
@@ -102,7 +97,7 @@ a.nav-link{
 }
 
 
-/* effetto hover cards */
+/* effetto cards */
 .effetto{
     position: absolute;
     top: 0;
@@ -123,9 +118,7 @@ a.nav-link{
     transform: translate(-50%, -50%);
 }
 
-.cards:hover .effetto{
-    display: block;
-}
+
 
 
 /* sezione about */
@@ -193,4 +186,36 @@ footer a{
     background-color: rgb(44 62 80);
     margin: 2em auto 0;
     padding: 1.5em 0;
+}
+
+
+
+/* HOVER */
+
+/* hover header */
+.nav-item:hover a.nav-link{
+    color: rgb(26 188 156);
+}
+
+
+
+/* portfolio */
+.cards:hover .effetto{
+    display: block;
+}
+
+
+
+/* bottoni */
+
+/* sezione about */
+.button-white:hover{
+    background-color: white;
+    color: black;
+}
+
+
+/* sezione contact */
+.sub:hover{
+    background-color: rgb(19, 126, 104);
 }
